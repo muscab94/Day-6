@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -29,14 +30,14 @@
 .btn button{
     margin-top: -20px;
     margin-left: 20px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: darkgrey;
     color: aliceblue;
     font-size: 1.2em;
 }
 .btn button:hover{
     background-color: brown;
-     transform: scale(1.2);
+     transform: scale(1.1);
 }
 
 /* Section1 */
@@ -46,9 +47,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 530px;
-    background-color: #424040;
+    background-color: #424040 ;
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
+    
 }
 .section1 h2{
  color: yellow;
@@ -163,6 +165,7 @@
     margin-bottom: 30px;
     display: flex;
     margin-top: 160px;
+    overflow: hidden;
 }
 .left h1{
     padding-left: 60px;
@@ -208,7 +211,192 @@
  .right img{
     margin-left: 190px;
     margin-top: -10px;
+    animation: jj 4s;
  }
+ @keyframes jj{
+    0%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+ }
+
+ /* section4 */
+ .section4{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: #f3eded;
+    height: 120vh;
+ }
+ .o{
+    text-align: center;
+    padding-top: 40px;
+ }
+ .o h1{
+    font-size: 3.4em;
+    font-weight: bold;
+ }
+ .o p{
+    font-size: 15px;
+    color: #585656;
+
+ }
+ .m{
+    margin-left: 90px;
+ }
+ #one{
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border-color: chartreuse;
+    border: 1.3px solid;
+ }
+#two{
+    width: 50px;
+    margin-left: 561px;
+    margin-top: -20px;
+    border: 1.2px solid;
+    border-color: rgb(238, 24, 24);
+}
+#thre{
+    width: 60px;
+    margin-left: 610px;
+    margin-top: -20px;
+    border-color: darkblue;
+}
+.l{
+    background-color: #d4c8c8;
+    width: 370px;
+    margin-left:50px ;
+    height: 70vh;
+    box-shadow: 2px 2px 3px 1px rgb(175, 165, 165);
+    border: none;
+    margin-top: 40px;
+}
+
+.n{
+    display: flex;
+}
+.k img{
+    width: 370px;
+}
+.k img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.k h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+}
+.k p{
+    text-align: center;
+    color: gray;
+    padding-top: 10px;
+}
+.k h3{
+    text-align: center;
+    padding-top: 30px;
+}
+.section5{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#fy{
+    width: 50px;
+    border: 1.3px solid;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#yy{
+    width: 50px;
+    border: 1.3px solid;
+    margin-left: 70px;
+    margin-top: -20px;
+    border-color: rgb(243, 29, 29);
+}
+.left1{
+    width: 400px;
+    margin-left: 70px;
+}
+.left1 p{
+    margin-bottom: 10px;
+}
+.left1 h1{
+    font-size: 2.5em;
+    padding-top: 25px;
+}
+.ki{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    margin-top: 20px;
+}
+.ki img{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+}
+.x h1{
+    font-size: 1.4em;
+    color: #4b4949;
+    font-weight: bold;
+}
+.x p{
+    padding-top: 10px;
+    color: #424040;
+}
+.right1{
+    width: 500px;
+    height: 90vh;
+    margin-left: 190px;
+    background-color: dimgray;
+    text-align: center;
+}
+.right1 h1{
+    padding-top: 70px;
+    font-size: 2.7em;
+}
+.i{
+    margin-top: 40px;
+}
+.i input{
+    margin-bottom: 20px;
+    width: 400px;
+    height:50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.i textarea{
+    width: 400px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#submit{
+    margin-top: 40px;
+    padding: 15px 130px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color:seagreen ;
+}
+#submit:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -245,6 +433,7 @@
     .all{
         width: 75%;
         margin-top: 40px;
+        margin-bottom: 20px;
     }
     .all img{
         height: 10vh;
@@ -294,6 +483,39 @@
     }
     .r hr{
         margin-top: -21px;
+    }
+    .section4{
+        height: 195vh;
+    }.m{
+        margin-left: -380px;
+    }
+    .n{
+        flex-direction: column;
+    }
+    .l{
+        height: 50vh;
+        margin-left: 30px;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .left1{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .right1{
+        width: 400px;
+        margin-left: 20px;
+        height: 70vh;
+    }
+     .i input{
+        width: 90%;
+    }
+    .i textarea{
+        width: 90%;
+    }
+    #submit{
+        padding: 10px 40px;
     }
  }
 
