@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.header img{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header #re{
+    display: none;
+}
+.header ul{
+    display: flex;
+    margin-top: 50px;
+    font-size: 23px;
+    gap: 25px;
+   margin-right: 50px;
+}
+.header ul li{
+    list-style: none;
+}
+.btn button{
+    margin-top: -20px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: darkgrey;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.btn button:hover{
+    background-color: brown;
+     transform: scale(1.2);
+}
+
+/* Section1 */
+.section1{
+    background-image: url("https://media.istockphoto.com/id/1283316581/photo/successful-group-portrait-of-smart-creative-industry-technician-engineer-wearing-uniform-and.jpg?s=1024x1024&w=is&k=20&c=iUQMIKNtOPYmLzsRawhzX9Z6jgSXYDKgxSgXJF1UgIA=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    background-color: #424040;
+    position: relative;
+    margin-top: 20px;
+}
+.section1 h2{
+ color: yellow;
+ margin-left: 50px;
+ padding-bottom: 0px;
+ padding-top: 150px;
+ font-weight: bolder;
+
+}
+.section1 h1{
+    font-size: 4.6em;
+    padding-left: 50PX;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1 p{
+    padding-left: 50px;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-top: 0px;
+    color: white;
+}
+.section1 #get{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 15px 50px;
+    border: none;
+    background-color: rgb(141, 202, 19);
+    border-radius: 30px;
+    color: white;
+    font-size: 1.3em;
+}
+.section1 #get:hover{
+    background-color: cornflowerblue;
+}
+
+/* sectio2 */
+.section2{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 25px;
+}
+.all{
+    display: flex;
+    width: 20%;
+    height: 35vh;
+    gap: 30px;
+    margin-left: 20px;
+}
+.all img{
+    width: 40px;
+    height: 70px;
+    padding-top: 20px;
+}
+.q1 h1{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    color: #424040;
+}
+.q1 p{
+    color: #585656;
+}
+.al{
+    display: flex;
+    width: 20%;
+    height: 35vh;
+    gap: 30px;
+    margin-left: 20px;
+    background-color: rgb(235, 229, 229);
+}
+.al img{
+    width: 40px;
+    height: 70px;
+    padding-top: 20px;
+}
+.q1 h1{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    color: #424040;
+}
+.q1 p{
+    color: #585656;
+}
+
+.ali{
+    display: flex;
+    width: 20%;
+    height: 35vh;
+    gap: 30px;
+    margin-left: 20px;
+    background-color: #d4c8c8;
+}
+.ali img{
+    width: 40px;
+    height: 70px;
+    padding-top: 20px;
+}
+.q1 h1{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    color: #424040;
+}
+.q1 p{
+    color: #585656;
+}
+
+/* section3 */
+.section3{
+    margin-bottom: 30px;
+    display: flex;
+    margin-top: 160px;
+}
+.left h1{
+    padding-left: 60px;
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+.left{
+    width: 45%;
+    margin-top: 20px;
+}
+ #f{
+    width: 80px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.r hr{
+    width: 80px;
+    border: 2px solid;
+    color: rgb(168, 201, 23);
+    margin-left: 140px;
+    margin-top: -22px;
+}
+.left p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+ .section3 #us{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: darkseagreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3em;
+ }
+ .section3 #us:hover{
+    background-color: brown;
+    transform: scale(1.2);
+ }
+ .right img{
+    margin-left: 190px;
+    margin-top: -10px;
+ }
+
+
+
+ @media(max-width:428px){
+    .header ul{
+        display: none;
+    }
+    .header img{
+        width: 120px;
+    }
+    .header #re{
+        display: block;
+        margin-right: 30px;
+        margin-top: 35px;
+        font-size: 2em;
+    }
+    .header h2{
+        margin-top: -300px;
+    }
+    .section1{
+        height: 80vh;
+    }
+    .btn button{
+        margin-top: 170px;
+    }
+    .section2{
+        width: 100%;
+    }
+    .section2{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .all{
+        width: 75%;
+        margin-top: 40px;
+    }
+    .all img{
+        height: 10vh;
+        width: 120px;
+    }
+    .all p{
+        font-size: 25px;
+    }
+    .al{
+        margin-bottom: 20px;
+        width: 75%;
+    }
+        .al img{
+        height: 10vh;
+        width: 120px;
+    }
+    .al p{
+        font-size: 25px;
+    }
+    .ali{
+        margin-bottom: 20px;
+        width: 75%;
+    }
+    .ali img{
+        height: 10vh;
+        width: 120px;
+    }
+    .ali p{
+        font-size: 25px;
+    }
+    .section3{
+        flex-direction: column;
+        width: 90%;
+    }
+    .right img{
+        width: 340px;
+        margin-left: 80px;
+    }
+    .left{
+        width: 100%;
+    }
+    .left p{
+        font-size: 25px;
+    }
+    .section3 #us{
+        margin-bottom: 40px;
+    }
+    .r hr{
+        margin-top: -21px;
+    }
+ }
+
