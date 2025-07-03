@@ -42,18 +42,18 @@
 
 /* Section1 */
 .section1{
-    background-image: url("https://media.istockphoto.com/id/1283316581/photo/successful-group-portrait-of-smart-creative-industry-technician-engineer-wearing-uniform-and.jpg?s=1024x1024&w=is&k=20&c=iUQMIKNtOPYmLzsRawhzX9Z6jgSXYDKgxSgXJF1UgIA=");
+    background-image: linear-gradient(rgba(0,0,0,0.4)), url("https://media.istockphoto.com/id/1283316581/photo/successful-group-portrait-of-smart-creative-industry-technician-engineer-wearing-uniform-and.jpg?s=1024x1024&w=is&k=20&c=iUQMIKNtOPYmLzsRawhzX9Z6jgSXYDKgxSgXJF1UgIA=");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 530px;
-    background-color: #424040 ;
+    /* background-color: #424040 ; */
     position: relative;
     margin-top: 10px;
     
 }
 .section1 h2{
- color: yellow;
+ color:white;
  margin-left: 50px;
  padding-bottom: 0px;
  padding-top: 150px;
@@ -209,9 +209,10 @@
     transform: scale(1.2);
  }
  .right img{
-    margin-left: 190px;
+    margin-left: 160px;
     margin-top: -10px;
-    animation: jj 4s;
+    animation: jj 4s ease-in-out;
+    /* animation-timeline: view(10% auto); */
  }
  @keyframes jj{
     0%{
@@ -273,7 +274,18 @@
     box-shadow: 2px 2px 3px 1px rgb(175, 165, 165);
     border: none;
     margin-top: 40px;
+    animation: xx 4s ;
+    animation-timeline: view(20% auto);
 }
+@keyframes xx{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
 
 .n{
     display: flex;
@@ -283,7 +295,7 @@
 }
 .k img:hover{
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .k h1{
     text-align: center;
@@ -303,6 +315,7 @@
     display: flex;
     margin-top: 100px;
     margin-bottom: 40px;
+    z-index: 1;
 }
 #fy{
     width: 50px;
@@ -369,12 +382,14 @@
     border-radius: 10px;
     border: none;
     padding-left: 10px;
+    outline: none;
 }
 .i textarea{
     width: 400px;
     height: 120px;
     padding-top: 20px;
     padding-left: 10px;
+    outline: none;
 }
 #submit{
     margin-top: 40px;
@@ -388,10 +403,134 @@
     background-color: red;
 }
 
+/* section6 */
+.section6{
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(https://royaletouche.gumlet.io/wp-content/uploads/2024/09/27123301/interior-design-for-office1.jpg?compress=true&quality=80&w=1500&dpr=2.6);
+    width:100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+}
+.t h2{
+    padding-left: 90px;
+    padding-top: 100px;
+    color: white;
+    font-size: 1.2em;
+}
+.t h1{
+    padding-left: 90px;
+    font-size: 3em;
+    color: rgb(223, 217, 217);
+    font-weight: bold;
+}
+.kio{
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.kio input{
+    width: 290px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+}
+.c{
+    margin-top: -40px;
+}
+.c button{
+    margin-left: 320px;
+    padding: 10px 30px;
+    background-color: #4b4949;
+    color: white;
+    border: none; 
+    font-size: 1.2em;
+}
+.kio button:hover{
+    background-color: teal;
+}
 
-
-
-
+/* section7 */
+.section7{
+    margin-top: 50px;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.cli {
+    text-align: center;
+}
+.cli h1{
+    font-size: 3em;
+}
+.buu #first{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 550px;
+    border: 1.2px solid chartreuse;
+}
+.buu #second{
+    width: 40px;
+    margin-left: 620px;
+    border: 1.3px solid rgb(28, 29, 29);
+    margin-top: -20px;
+}
+.buu #third{
+    width: 70px;
+    margin-left: 660px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: 1.3px solid;
+    border-color: chartreuse;
+}
+.nav{
+    display: flex;
+    margin-left: 40px;
+}
+.zo{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 20px;
+    box-shadow:2px 2px 5px ;
+}
+.zo img{
+    width: 100px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.zo p{
+    margin-top: 40px;
+}
+.zo h3{
+    margin-top: 20px;
+    color: #4b4949;
+}
+.zo #cust{
+    margin-top: 20px;
+}
+.aq{
+    margin-top: 90px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+#gg{
+    width: 20px;
+    font-size: 15px;
+    margin-top: -20px;
+    padding-left: 10px;
+}
+#angel{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+}
 
 
 
@@ -485,7 +624,7 @@
         margin-top: -21px;
     }
     .section4{
-        height: 195vh;
+        height: 200vh;
     }.m{
         margin-left: -380px;
     }
@@ -493,7 +632,7 @@
         flex-direction: column;
     }
     .l{
-        height: 50vh;
+        height: 55vh;
         margin-left: 30px;
     }
     .section5{
@@ -517,5 +656,33 @@
     #submit{
         padding: 10px 40px;
     }
+    .section6{
+        width: 100%;
+        flex-direction: column;
+        height: 55vh;
+    }
+    .kio input{
+        margin-left: -130px;
+        width: 200px;
+        margin-top: -390px;
+    }
+    .c button{
+        margin-left: 100px;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .zo{
+        width: 100%;
+        margin-left: -20px;
+    }
+    .buu{
+        margin-left: -430px;
+    }
+    .aq{
+        margin-left: 110px;
+        
+    }
+
  }
 
