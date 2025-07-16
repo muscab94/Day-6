@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .header{
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 .header img{
     width: 100px;
