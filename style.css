@@ -15,6 +15,9 @@ a{
     color: black;
     text-decoration: none;
 }
+#ul{
+    display: none;
+}
 .header img{
     width: 100px;
     height: 60px;
@@ -23,6 +26,9 @@ a{
 }
 .header #re{
     display: none;
+}
+ #xmark{
+ display: none;
 }
 .header ul{
     display: flex;
@@ -778,11 +784,25 @@ a{
         margin-top: 35px;
         font-size: 2em;
     }
+    #ul{
+        
+        width: 40%;
+        margin-top: 80px;
+        margin-left: 110px;
+    }
+
+    #xmark{
+        display:none;
+        margin-top: 35px;
+        font-size: 2em;
+        margin-right: 190px;
+    }
     .header h2{
         margin-top: -300px;
     }
     .section1{
         height: 80vh;
+        z-index: 1;
     }
     .btn button{
         margin-top: 170px;
